@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="img/arcane-logo-a-1-ff3091e021ded0fcd5528dd5b58683db.png" />
+
+    <title>Fansite sur Arcane</title>
+</head>
+
+<body class="text-light">
+    <header class="mb-5">
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/arcane-logo-a-1-ff3091e021ded0fcd5528dd5b58683db.png" width="30" height="30"
+                        alt="">Quizz</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="synopsis.html">Synopsis</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="personnages.html">Les personnages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="univers.html">L'univers</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article class="pb-5 img-fluid bg-img d-flex justify-content-center align-items-center h-100"
+            style="background-image:url('img/51b1od7l0zy71.png') ; background-size: cover; width:100% ;height: 100vh; margin:0px; padding: 0px;">
+            <header>
+
+            </header>
+            <section>
+                <div id="page-wrap">
+
+                    <form action="result.php" method="post" id="quiz">
+
+                        <ol>
+
+                            <div class="container-fluid mt-5">
+                                <div class="row mt-5">
+                                    <h1>Quiz sur Arcane</h1>
+
+                                    <div class="col-12 mt-5">
+
+                                        <h3>Quelle ville est pillée par VI, Powder, Claggor et Mylo ?</h3>
+
+                                        <div>
+                                            <input type="radio" name="question-1-answers" id="question-1-answers-A"
+                                                value="A" />
+                                            <label for="question-1-answers-A">A) Ixtal</label>
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="question-1-answers" id="question-1-answers-B"
+                                                value="B" />
+                                            <label for="question-1-answers-B">B) Zaun</label>
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="question-1-answers" id="question-1-answers-C"
+                                                value="C" />
+                                            <label for="question-1-answers-C">C) Piltover</label>
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="question-1-answers" id="question-1-answers-D"
+                                                value="D" />
+                                            <label for="question-1-answers-D">D) Freljord</label>
+                                        </div>
+
+                                    </div>
+
+                                    <div class=" col-12 mt-5">
+
+                                        <h3>Quel est le but ultime de Silco ?</h3>
+
+                                        <div>
+                                            <input type="radio" name="question-2-answers" id="question-2-answers-A"
+                                                value="A" />
+                                            <label for="question-2-answers-A">A) Etre riche</label>
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="question-2-answers" id="question-2-answers-B"
+                                                value="B" />
+                                            <label for="question-2-answers-B">B) Mettre la main sur la technologie
+                                                "Hextech"</label>
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="question-2-answers" id="question-2-answers-C"
+                                                value="C" />
+                                            <label for="question-2-answers-C">C) Mettre au point le Shimmer</label>
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="question-2-answers" id="question-2-answers-D"
+                                                value="D" />
+                                            <label for="question-2-answers-D">D) Créer la nation de Zaun </label>
+                                        </div>
+
+                                    </div>
+
+                                    <div class=" col-sm-12  mt-5">
+
+                                        <h3>Quelle est la découverte de Jayce et Victor ?</h3>
+
+                                        <div>
+                                            <input type="radio" name="question-3-answers" id="question-3-answers-A"
+                                                value="A" />
+                                            <label for="question-3-answers-A">A) Ils on découvert et stabilisé de puissants cristaux.</label>
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="question-3-answers" id="question-3-answers-B"
+                                                value="B" />
+                                            <label for="question-3-answers-B">B) Ils ont découvert une arme
+                                                légendaire.</label>
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="question-3-answers" id="question-3-answers-C"
+                                                value="C" />
+                                            <label for="question-3-answers-C">C) Ils ont découvert le secret de magies
+                                                puissantes.</label>
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="question-3-answers" id="question-3-answers-D"
+                                                value="D" />
+                                            <label for="question-3-answers-D">D) Ils ont découvert un canard en plastique
+                                                géant.</label>
+                                        </div>
+
+                                    </div>
+
+                                    <div class=" col-12 mt-5">
+
+                                        <h3>De qui Vi tient elle ses gantelets ? </h3>
+
+                                        <div>
+                                            <input type="radio" name="question-4-answers" id="question-4-answers-A"
+                                                value="A" />
+                                            <label for="question-4-answers-A">A) De Jayce</label>
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="question-4-answers" id="question-4-answers-B"
+                                                value="B" />
+                                            <label for="question-4-answers-B">B) De Vander</label>
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="question-4-answers" id="question-4-answers-C"
+                                                value="C" />
+                                            <label for="question-4-answers-C">C) De Caitlyn</label>
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="question-4-answers" id="question-4-answers-D"
+                                                value="D" />
+                                            <label for="question-4-answers-D">D) De Victor</label>
+
+                                        </div>
+                                    </div>
+
+                                    <div class=" col-12 mt-5">
+
+                                        <h3>Quelle est l'origine du studio de production de la serie?</h3>
+
+                                        <div>
+                                            <input type="radio" name="question-5-answers" id="question-5-answers-A"
+                                                value="A" />
+                                            <label for="question-5-answers-A">A) Suédois</label>
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="question-5-answers" id="question-5-answers-B"
+                                                value="B" />
+                                            <label for="question-5-answers-B">B) Américain</label>
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="question-5-answers" id="question-5-answers-C"
+                                                value="C" />
+                                            <label for="question-5-answers-C">c) Japonais</label>
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="question-5-answers" id="question-5-answers-D"
+                                                value="D" />
+                                            <label for="question-5-answers-D">D) Français</label>
+                                        </div>
+
+                                        <div class=" col-sm-6 mt-5 ">
+                                            <input type="submit" value="Confirmer" class=" submitbtn" />
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </ol>
+
+                    </form>
+
+                </div>
+            </section>
+
+    </main>
+    <footer class="">
+        <div class="container-fluid bg-dark pt-5">
+            
+            <ul class="nav bg-dark justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Accueil</a></li>
+                <li class="nav-item"><a href="synopsis.html" class="nav-link px-2 text-muted">Synopsis</a></li>
+                <li class="nav-item"><a href="personnages.html" class="nav-link px-2 text-muted">Les personnages</a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">L'univers</a></li>
+                <li class="nav-item"><a href="quizz.html" class="nav-link px-2 text-muted">Quizz</a></li>
+            </ul>
+
+            <p class="text-light text-center">© 2021 Riot Games, Inc. ARCANE LEAGUE OF LEGENDS et tous logos associés
+                sont des marques, des marques de service et/ou des marques déposées de Riot Games, Inc.</p>
+            <br>
+        </div>
+    </footer>
+</body>
+
+</html>
